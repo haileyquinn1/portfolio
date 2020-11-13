@@ -119,8 +119,8 @@ nav a{
 
 .gallery {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 50px;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
 }
 
 .gallery__img {
