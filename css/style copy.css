@@ -208,7 +208,7 @@ input[type=submit]:hover {
 
   .gallery {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     grid-gap: 10px;
   }
   
