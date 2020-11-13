@@ -208,8 +208,8 @@ input[type=submit]:hover {
 
   .gallery {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 50px;
+    grid-template-columns: auto;
+    grid-gap: 10px;
   }
   
   .gallery__img {
