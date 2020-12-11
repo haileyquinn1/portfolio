@@ -113,6 +113,7 @@ nav ul .current{
 nav a{
   color: white;
   font-weight: bold;
+  text-decoration: none;
   flex-direction: row;
   padding: 20px;
 }
@@ -170,19 +171,17 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: rgb(46, 46, 46);
 }
 
-/* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
   background-color: #ffffff;
   padding: 20px;
 }
 
-@media all and (min-width: 800px){
+@media all and (min-width: 768px){
   
   .title {
     font-size: larger;
@@ -221,10 +220,6 @@ input[type=submit]:hover {
 
 }
 
-/*You do not need to modify any code below this line.
-It is included for accessibility to turn off animations
-and movement for people who have modified their 
-preferences to reduce motion.*/
 
 @media screen and (prefers-reduced-motion: reduce){
   html{
